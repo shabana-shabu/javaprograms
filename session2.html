@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my page</title>
+        <style>
+            html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: darkcyan;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px groove cyan;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color:cornsilk;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.aside {
+    width: 10%;
+    font-family:serif;
+    background-color: lightgray;
+    float:right;
+}
+#header {
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid silver;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color:deeppink;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color:cyan;
+    background:red;
+}
+progress::-webkit-progress-bar {
+    background:gray;
+}
+progress::-webkit-progress-value {
+    background:cyan;
+} 
+progress::-moz-progress-bar {
+    color: pink;
+    background: red;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+ .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    margin: 5Px 0px;
+    background-color:cornsilk;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .navbar ul li {
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    text-decoration:none;
+    color:blue;
+    padding: 8px 25px;
+    transition: all .5s ease;
+    border-radius: 10px;
+  }
+   .navbar ul li a:hover{
+    background-color:red;
+    color: black;
+    box-shadow: 0 0 10px white;
+   }
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: grey;
+}
+        </style>
+    </head>
+    
+    <body>
+        <main>
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="profile.jpg">
+            <p>SHABANA A</p>
+        </div>
+     <nav class="navbar">
+  <ul>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#about me">ABOUT ME</a></li>
+    <li><a href="#skills">MY SKILLS</a></li>
+    <li><a href="#course video">COURSE VIDEO</a></li>
+     <li><a href="#location">LOCATION</a></li>
+    <li><a href="#video">VIDEO</a></li>
+     <li><a href="#contact me">CONTACT ME</a></li>    
+  </ul>
+</nav>
+</main>
+<div id="about me">
+        <div class="section">
+            <h1><span>About Me</span></h1>
+            <p>
+                Hey! I'm <strong>Shabana A</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it where it build  self-esteem and keeps motivated.
+            </p>
+            <aside class="aside"><p class="quote">"Declare variables,not war"</p></aside>
+        </div>
+    </div>
+    <nav>
+        <div class="section">
+            <h1><span>My Schedule</span></h1>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>8-8:30</td>
+                    <td class="selected">Learn</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td class="selected">Practice</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1-1:30</td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Play</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:45-5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Code</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6-6:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Discuss</td>
+                </tr>
+            </table>
+        </div>
+        </nav>
+    </nav>
+    <div id="skills">
+        <div class="section">
+            <h1><span>My Skills</span></h1>
+            <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="80"></progress>
+                </li>
+                <li>CSS<br />
+                    <progress min="0" max="100" value="70"></progress>
+                </li>
+                <li>Java<br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="course video">
+        <div class="section">
+            <h1><span>Course Video</span></h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mU6anWqZJcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="location">
+        
+        <div class="section">
+            <h1><span>My Address</span></h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7773.75272612362!2d77.54054612125672!3d13.043540913234658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d45ebfdadab%3A0xd075b0dde048961c!2sJalahalli%20Village%2C%20Jalahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1631293027630!5m2!1sen!2sin" width="500" height="300"></iframe>
+        </div>
+       
+    </div>
+   
+    <div id="video">
+      <div class="section">
+          <h1><span>Pet video</span></h1>
+          <p align="center"><video controls width="200" height="250">
+  <source src="cat.mp4"type="video/mp4">
+</video></p>
+      </div>
+    </div>
+    <div id="contact me">
+       <div class="section">
+            <h1><span>Contact Me</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+                 
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+       <footer>
+        <div class="section" id="contacts">
+            <h1><span>Follow Me</span></h1>
+            <div>
+                <a href="#">
+                    <img src="gmail.png"alt="G-mail" />
+                </a>
+                <a href="#">
+                    <img  src="github.png"alt="Github"/>
+                </a>
+                <a href="#">
+                    <img  src="facebook.png"alt="Facebook"/>
+                </a>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2021 My Blog. All rights reserved.
+        </div>
+        </footer>
+    </body>
+</html>
